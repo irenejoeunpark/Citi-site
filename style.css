@@ -284,6 +284,7 @@ footer{
     .form button{
         margin: auto;
         margin-top: 0px;
+        margin-bottom: 0px;
         height: 1rem;
         width: 3rem;
     }

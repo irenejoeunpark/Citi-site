@@ -37,11 +37,13 @@ padding: 0;
     justify-content: space-between;
 }
 
-.menu ul li{
+.menu ul li a{
     margin: 1rem;
     font-size: 1rem;
+    text-decoration: none;
+    color: white;
 }
-.menu ul li:hover{
+.menu ul li a:hover{
     cursor: pointer;
     color: rgb(12, 131, 131);
 }
@@ -175,10 +177,22 @@ padding: 0;
     width: 30%;
 }
 
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(2, 73, 55);
+    font-size: .5rem;
+    color: white;
+}
+
 @media(max-width:700px){
     .menu{
         /* display: none; */
         margin: auto;
+    }
+    .menu ul li{
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .nav{
         flex-direction: column;
@@ -198,5 +212,8 @@ padding: 0;
     }
     .row3-content{
         width: 80%;
+    }
+    .content h1{
+        margin-top: 0vh;
     }
 }

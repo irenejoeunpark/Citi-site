@@ -186,4 +186,17 @@ padding: 0;
     .nav h1{
         margin: auto;
     }
+    .content h1{
+        margin-top: 10%;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .items{
+        margin: auto;
+        width: 80%;
+    }
+    .row3-content{
+        width: 80%;
+    }
 }

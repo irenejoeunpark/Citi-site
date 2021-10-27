@@ -180,7 +180,7 @@ padding: 0;
 .row4{
     display: flex;
     width: 100%;
-    background: url('11.png');
+    background: url('/11.png');
     height: 80vh;
     background-size:contain;
     flex-direction: column;

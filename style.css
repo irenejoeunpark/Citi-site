@@ -27,6 +27,10 @@ padding: 0;
     align-items: center;
 }
 
+.nav h1{
+    margin-left: 1rem;
+}
+
 .menu ul{
     display: flex;
     list-style: none;
@@ -91,8 +95,9 @@ padding: 0;
 
 .btn{
     margin-top: 1rem;
-    width: 10%;
-    height: 3rem;
+    padding: 1rem;
+    /* width: 10%; */
+    /* height: 3rem; */
     background-color: rgb(12, 131, 131);
     color: white;
     font-size: 1rem;
@@ -168,4 +173,17 @@ padding: 0;
 
 .row3-content button{
     width: 30%;
+}
+
+@media(max-width:700px){
+    .menu{
+        /* display: none; */
+        margin: auto;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .nav h1{
+        margin: auto;
+    }
 }

@@ -273,4 +273,36 @@ footer{
     .form{
         font-size: 1.2rem;
     }
+    .column button{
+        width: 22vw;
+        text-align: center;
+    }
+    .column {
+        align-items: center;
+    }
+}
+
+
+@media(max-width:400px) {
+    .column h1{
+        font-size: 1.5rem;
+    }
+    .form{
+        font-size: 1rem;
+    }
+    .column button{
+        width: 22vw;
+        text-align: center;
+    }
+    .column {
+        align-items: center;
+    }
+    .row4 {
+        height: auto;
+    }
+    #col2 {
+        align-items: center;
+        vertical-align: middle;
+        margin-top: auto;
+    }
 }
